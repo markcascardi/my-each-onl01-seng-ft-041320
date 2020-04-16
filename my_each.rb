@@ -1,3 +1,5 @@
+collection = [1, 2, 3, 4]
+
 def my_each(array)
   i = 0
     while i < array.length
@@ -6,3 +8,7 @@ def my_each(array)
     end
     array
 end
+
+my_each(collection) do |i|
+  puts collection i
+end 
